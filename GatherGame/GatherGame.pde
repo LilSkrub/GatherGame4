@@ -20,7 +20,14 @@ void setup() // runs once
   character1 = new character(width/2,height/2,20);
   
   collectable1 = new collectable(20,50, 10);
-  collectable2 = new collectable(900, 600, this.size);
+  collectable2 = new collectable(900, 600, 10);
+  collectable3 = new collectable(900, 600, 10);
+  collectable4 = new collectable(900, 600, 10);
+  collectable5 = new collectable(900, 600, 10);
+  collectable6 = new collectable(900, 600, 10);
+  collectable7 = new collectable(900, 600, 10);
+  collectable8 = new collectable(900, 600, 10);
+  collectable9 = new collectable(900, 600, 10);
 }
 
 void draw()

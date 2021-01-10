@@ -17,4 +17,9 @@ static class gameState {
     screen = 2;
   }
   
+  public static void gameWin()
+  {
+    screen = 3;
+  }
+  
 }
